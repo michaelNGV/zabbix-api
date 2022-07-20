@@ -1,11 +1,11 @@
 # zabbix-api
-zabbix-api for Kotlin and hopefully Java too.
+Zabbix API wrapper for Kotlin and hopefully Java too.
 
 https://www.zabbix.com/wiki/doc/api
 
 https://www.zabbix.com/documentation/5.0/manual/api/reference/user/login
 
-##Info
+## Info
 This package is based on hengyunabc's but:
 - Rewritten in Kotlin.
 - Removed superfluous layers of builders, factories and incremental construction that for some reason always go with Java.
@@ -18,7 +18,7 @@ This package is based on hengyunabc's but:
 Although the package is written in Kotlin, it's intended to be useable by Java;  hence the style of request construction.
 We at NGV don't use Java so we haven't tested that aspect.
 
-##Example
+## Example
 You can set your own ```HttpClient```.
 
 ```kotlin
@@ -43,7 +43,7 @@ You can set your own ```HttpClient```.
     zabbixAPI.destroy()
 ```
 
-##Maven dependency
+## Maven dependency
 ```xml
 <dependency>
 	<groupId>au.com.ngv.zabbixAPI</groupId>
@@ -52,5 +52,5 @@ You can set your own ```HttpClient```.
 </dependency>
 ```
 
-##Licence
+## Licence
 Apache Licence V2
