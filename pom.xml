@@ -3,11 +3,10 @@
 	<groupId>au.com.ngv.zabbixAPI</groupId>
 	<artifactId>zabbix-api</artifactId>
 	<version>1.0.0</version>
-
 	<name>zabbix-api</name>
-	<description>zabbix API for Kotlin</description>
-	<url>https://github.com/ngvptyltd/zabbix-api</url>
-	<inceptionYear>2015</inceptionYear>
+	<description>Zabbix API for Kotlin</description>
+	<url>https://github.com/enngeevee/zabbix-api</url>
+	<inceptionYear>2022</inceptionYear>
 
 	<licenses>
 		<license>
