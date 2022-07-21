@@ -19,7 +19,7 @@ Although the package is written in Kotlin, it's intended to be useable by Java; 
 We at NGV don't use Java so we haven't tested that aspect.
 
 ## Example
-You can set your own ```HttpClient```.
+You can set your own ```HttpClient``` but you don't have to;  a default will be supplied.
 
 ```kotlin
     val zabbixAPI=DefaultZabbixApi(URI(zabbixHost),
