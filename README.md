@@ -45,6 +45,14 @@ You can set your own ```HttpClient``` but you don't have to;  a default will be 
 
 ## Maven dependency
 ```xml
+<repositories>
+	<repository>
+		<id>github</id>
+		<name>NGV packages on github</name>
+		<url>https://maven.pkg.github.com/enngeevee/*</url>
+	</repository>
+</repositories>
+...
 <dependency>
 	<groupId>au.com.ngv.zabbixAPI</groupId>
 	<artifactId>zabbix-api</artifactId>
