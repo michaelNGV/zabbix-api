@@ -1,7 +1,7 @@
 package au.com.ngv.zabbixAPI
 
-import com.alibaba.fastjson.JSON
-import com.alibaba.fastjson.JSONArray
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.buildJsonArray
 import java.util.LinkedList
 
 
@@ -16,5 +16,5 @@ class RequestArray(): Request
 		return this
 	}
 
-	override fun serialise(): JSON = JSONArray(params)
+	override fun serialise(): JsonArray = buildJsonArray { params }
 }

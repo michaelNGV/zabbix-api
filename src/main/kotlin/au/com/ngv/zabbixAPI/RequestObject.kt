@@ -1,7 +1,7 @@
 package au.com.ngv.zabbixAPI
 
-import com.alibaba.fastjson.JSON
-import com.alibaba.fastjson.JSONObject
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.buildJsonObject
 
 
 class RequestObject() : Request
@@ -15,5 +15,5 @@ class RequestObject() : Request
 		return this
 	}
 
-	override fun serialise(): JSON = JSONObject(params)
+	override fun serialise(): JsonObject = buildJsonObject { params }
 }
